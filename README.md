@@ -1,16 +1,5 @@
-# color_on_svg
+This repo tries to showcase a bug that affects SVGs pictures with color filters.
 
-A new Flutter project.
+Sometimes they look great, but sometimes not. I feel it's something related to the Flutter renderer, that doesn't behave the same way on `html`, but I'm not 100% sure because I can't always reproduce the issue.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The project is deployed on CodeMagic so you can see how it behaves right now: https://svg-color-issue-example-flutter.codemagic.app/
